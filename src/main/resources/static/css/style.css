@@ -1,0 +1,96 @@
+.wholePage {
+    max-width: 780px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /*
+    justify-content: center;
+    align-items: center;
+    */
+}
+
+header {
+    height: 350px;
+    background-image: url("../images/Micin6.jpg");
+    background-position: center;
+    /*
+        display: flex;
+        align-items: center;
+       width: 800px;
+       flex-direction: row;
+       margin-top: 0px;*/
+}
+
+#webTitle {
+    text-align: center;
+    padding-top: 120px;
+    font-family: 'Kalam', cursive;
+    font-size: 45px;
+    color: dodgerblue;
+}
+
+nav {
+    height: 80px;
+    background: #050548;
+    justify-content: space-around;
+    display: flex;
+    /*
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0px;*/
+}
+
+.navItem {
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+    color: dodgerblue;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.mainSection {
+    height: 1600px;
+    display: flex;
+    margin-top: 0px;
+}
+
+main {
+    background: #d6defd;
+    flex-grow: 4;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 20px;
+    color: #0b0b94;
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Kalam', cursive;
+    font-size: 16px;
+    color: #0b0b94;
+    max-width: 500px;
+}
+
+.photo {
+    display: block;
+    padding-top: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
